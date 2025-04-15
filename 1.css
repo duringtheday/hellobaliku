@@ -1,0 +1,23 @@
+.greeting {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 250px 0;
+    font-size: 60px;
+}
+
+
+
+.greeting .content img {
+    margin: 0px;
+    width: 300px;
+  }
+
+  .greeting .content p {
+    margin: 10px;
+    font-size: 20px;
+  }

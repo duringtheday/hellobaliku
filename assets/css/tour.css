@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+
+
+/* ---------------------------------------------
+   Layout for Tour Section
+--------------------------------------------- */
+.main-container-tour {
+    padding: 0;
+    z-index: 10;
+}
+
+.cards-container-tour {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    /* margin-top: 150px; */
+}
+
+.card-box-1-tour,
+.card-box-2-tour,
+.card-box-3-tour,
+.card-box-4-tour,
+.card-box-5-tour,
+.card-box-6-tour {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 40px;
+    height: 700px;
+    background: #656c74;
+    overflow: hidden;
+}
+
+
+.container-card1-img-tour,
+.container-card3-img-tour,
+.container-card4-img-tour,
+.container-card5-img-tour,
+.container-card6-img-tour {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 500px;
+    /* overflow: hidden; */
+}
+
+.card-box-2-tour {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-repeat: no-repeat;
+    background-position: 8% 71%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url('../images/4️⃣\ Ubud\ Tour\ Culture\ &\ Nature-6.webp');
+    background-clip: padding-box;
+    box-shadow: 0px 0px 0px 0px #333333;
+    border-color: inherit;
+    background-color: transparent;
+    overflow: visible;
+    height: 400px;
+}
+
+.card-box-2-tour p {
+    color: white;
+    text-shadow: 3px 3px 5px black;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.card-box-3-tour,
+.card-box-5-tour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 100%;
+    background: #f0f0f1;
+}
+
+.h2-card-box-1-tour,
+.h2-card-box-3-tour,
+.h2-card-box-4-tour,
+.h2-card-box-5-tour,
+.h2-card-box-6-tour {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.h2-card-box-1-tour h2,
+.h2-card-box-4-tour h2,
+.h2-card-box-6-tour h2 {
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1.2px;
+}
+
+.h2-card-box-3-tour h2,
+.h2-card-box-5-tour h2 {
+    color: #333333;
+    font-size: 50px;
+    font-weight: 750;
+    letter-spacing: 1.2px;
+}
+
+.img-left-tour,
+.img-right-tour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    box-shadow: 5px 5px 10px 2px rgb(34, 34, 34);
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.img-left-tour img,
+.img-right-tour img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.left-side-c1-tour a,
+.left-side-c3-tour a,
+.left-side-c4-tour a,
+.left-side-c5-tour a,
+.left-side-c6-tour a {
+    padding: 15px;
+    width: 100%;
+    background: #2f2f2f;
+    box-shadow: 2px 2px 5px 1px black;
+    color: white;
+}
+.left-side-c1-tour a:hover,
+.left-side-c3-tour a:hover,
+.left-side-c4-tour a:hover,
+.left-side-c5-tour a:hover,
+.left-side-c6-tour a:hover {
+    background: #c0c0c0;
+    color: rgb(37, 37, 37);
+}
+
+.right-side-c1-tour,
+.left-side-c3-tour,
+.right-side-c4-tour,
+.left-side-c5-tour,
+.right-side-c6-tour {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    background: #3b3b3b;
+    box-shadow: inset 5px 5px 10px 1px rgb(12, 12, 12);
+}
+.anuncio-1-tour {
+    margin: 50px;
+}
+
+.anuncio-1-tour h2,
+.anuncio-1-tour p {
+    margin: 20px;
+    color: white;
+    letter-spacing: 0.7px; 
+}
+
+
+
