@@ -1,0 +1,167 @@
+/* ========================================
+   Responsive Layout Styles (responsive.css)
+   Adapted for HelloBaliku.com
+   ======================================== */
+
+/* General responsive reset */
+@media (max-width: 1200px) {
+  .main-banner h2 {
+    font-size: 36px;
+  }
+
+  .venue-item,
+  .venue-item-home {
+    width: 90%;
+  }
+
+  .greeting,
+  .greeting-tour,
+  .greeting-activity {
+    font-size: 40px;
+  }
+
+  .card-box-2 p {
+    font-size: 50px;
+  }
+
+  .cta-text,
+  .cta-overlay {
+    font-size: 40px;
+  }
+
+  .main-white-button a,
+  .main-dark-button a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 991px) {
+  .main-banner {
+    padding: 120px 0 100px;
+  }
+
+  .main-banner h2 {
+    font-size: 28px;
+  }
+
+  .reviews {
+    top: 15px;
+    left: 15px;
+    font-size: 18px;
+  }
+
+  .venue-item-home {
+    margin: 30px auto;
+  }
+
+  .card-box-1,
+  .card-box-3 {
+    padding: 20px;
+  }
+
+  .img-left,
+  .img-right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .container-card1-img,
+  .container-card3-img {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-1,
+  .card-3 {
+    width: 90%;
+    flex-direction: column;
+    border-radius: 20px;
+  }
+
+  .left-side-c1,
+  .right-side-c3 {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .right-side-c1,
+  .left-side-c3 {
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .h2-card-box-1 h2,
+  .h2-card-box-3 h2 {
+    font-size: 32px;
+  }
+
+  .greeting .content p {
+    font-size: 16px;
+  }
+
+  .subscribe form input,
+  .subscribe form .main-dark-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-banner h2 {
+    font-size: 22px;
+  }
+
+  .card-box-2 {
+    padding: 60px 20px;
+  }
+
+  .card-box-2 p {
+    font-size: 32px;
+  }
+
+  .cta-text,
+  .cta-overlay {
+    font-size: 30px;
+  }
+
+  .greeting img {
+    width: 200px;
+  }
+
+  .main-content .main-white-button {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .reviews {
+    font-size: 16px;
+  }
+
+  .main-banner h2 {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  #countdown span {
+    font-size: 14px;
+  }
+
+  .card-box-2 p {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .venue-item-home .down-content .right-content-home h4,
+  .venue-item-home .down-content .right-content-home h5 {
+    font-size: 16px;
+  }
+
+  .venue-item-home .down-content .right-content-home p {
+    font-size: 14px;
+  }
+
+  footer .under-footer {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
