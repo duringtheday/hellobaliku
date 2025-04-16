@@ -768,6 +768,41 @@ banner
   text-align: center;
   padding: 220px 0px 210px 0px;
 }
+.main-banner .reviews {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 10;
+  display: flex;
+  gap: 5px;
+  min-width: 200px;
+  /* width: 300px; */
+  background: #1e1e1e;
+  box-shadow: 2px 2px 5px 1px #1e1e1e;
+  border-radius: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  /* border: 2px solid gold; */
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.main-banner .reviews:hover {
+  transform: scale(1.05);
+}
+
+.main-banner .reviews .star {
+  padding: 10px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  /* color: gold; */
+  text-shadow: 1px 1px 2px #000;
+}
+
+
+/* ------------------------------
+MAIN BANNER TOUR
+--------------------------------*/
 .main-banner-tour {
   position: relative;
   display: flex;
@@ -780,6 +815,41 @@ banner
   min-height: 600px;
   margin-bottom: 0px;
 }
+.main-banner-tour .reviews {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 10;
+  display: flex;
+  gap: 5px;
+  min-width: 200px;
+  /* width: 300px; */
+  background: #1e1e1e;
+  box-shadow: 2px 2px 5px 1px #1e1e1e;
+  border-radius: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  /* border: 2px solid gold; */
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.main-banner-tour .reviews:hover {
+  transform: scale(1.05);
+}
+
+.main-banner-tour .reviews .star {
+  padding: 10px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  /* color: gold; */
+  text-shadow: 1px 1px 2px #000;
+}
+
+
+/* ------------------------------
+MAIN BANNER ACTIVITY
+--------------------------------*/
 .main-banner-activity {
   position: relative;
   display: flex;
@@ -792,7 +862,36 @@ banner
   min-height: 600px;
   margin-bottom:  0;
 }
+.main-banner-activity .reviews {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 10;
+  display: flex;
+  gap: 5px;
+  min-width: 200px;
+  /* width: 300px; */
+  background: #1e1e1e;
+  box-shadow: 2px 2px 5px 1px #1e1e1e;
+  border-radius: 20px;
+  border: 2px solid rgb(255, 255, 255);
+  /* border: 2px solid gold; */
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
 
+.main-banner-activity .reviews:hover {
+  transform: scale(1.05);
+}
+
+.main-banner-activity .reviews .star {
+  padding: 10px;
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  /* color: gold; */
+  text-shadow: 1px 1px 2px #000;
+}
 
 .main-banner h6 {
   font-size: 14px;

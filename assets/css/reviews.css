@@ -1,0 +1,120 @@
+.review-form,
+.review-list,
+.average-rating {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.review-form h2,
+.review-list h2,
+.average-rating h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2a2a2a;
+}
+
+.review-form input,
+.review-form textarea,
+.review-form select,
+.review-form button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.review-form button {
+  background: #343a3e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.review-form button:hover {
+  background: #656c74;
+}
+
+.review-card {
+  display: flex;
+  align-items: flex-start;
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.review-card img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.review-content .stars {
+  font-size: 18px;
+  color: gold;
+  margin-bottom: 5px;
+}
+
+.review-content p {
+  margin: 0;
+  color: #333;
+  font-size: 15px;
+}
+
+.average-stars {
+  text-align: center;
+  font-size: 30px;
+  color: gold;
+}
+
+.average-stars span {
+  color: #2a2a2a;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.more-reviews {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.more-reviews a {
+  font-weight: bold;
+  color: #343a3e;
+  text-decoration: underline;
+}
+
+/* Floating WhatsApp icon */
+.floating-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: white;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  /* background: #25d366; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: background 0.3s ease;
+}
+
+/* .floating-whatsapp:hover {
+  background: #128c7e;
+} */
